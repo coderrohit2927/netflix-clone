@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #141414;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .logo {
+      img {
+        height: 60px;
+        margin-right: 20px;
+      }
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  
+      li {
+        margin-right: 20px;
+  
+        a {
+          color: #e50914;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: bold;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .login-button {
+      button {
+        background-color: transparent;
+        border: none;
+        color: #e50914;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  .navbar > svg {
+    background-color:aquamarine;
+    cursor: pointer;
+    &:hover{
+        background-color: #e50914;
+    }
+  }
